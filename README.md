@@ -1,5 +1,6 @@
 # DatePickerDialog
 ##时间提示框选择
+
 	/* 显示日期设置对话框的按钮点击事件处理 */
 			/*
 			 * 构造一个DatePickerDialog对象，第一个参数为Context、 第二参数为日期修改事件处理监听器、后面为初始化的年月日
@@ -33,12 +34,12 @@
             my_Minute = my_Calendar.get(Calendar.MINUTE);
             
  ###通过拼接显示
+ 
        showDate_Time.setText(new StringBuffer().append(my_Year).append("/")
                      .append(FormatString(my_Month + 1)).append("/")
                      .append(FormatString(my_Day)).append(" ")
                      .append(FormatString(my_Hour)).append(" : ")
-                     .append(FormatString(my_Minute)));
-                     
+                     .append(FormatString(my_Minute)));            
                      
 ![图片](https://github.com/yufeilong92/DatePickerDialog/blob/master/icon/b.png)
 ![图片](https://github.com/yufeilong92/DatePickerDialog/blob/master/icon/a.png)
