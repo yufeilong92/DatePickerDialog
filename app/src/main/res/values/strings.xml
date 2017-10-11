@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DatePickerDialog</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="show_date_set_dialog">显示日期设置对话框</string>
+    <string name="show_time_set_dialog">显示时间设置对话框</string>
+
+</resources>
